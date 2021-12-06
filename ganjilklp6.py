@@ -25,14 +25,14 @@ if x1 == x2:
         plt.show()
         
         
- elif y1 == y2:
+elif y1 == y2:
     titikA = []
     titikB = []
     for i in range (1,y2,1):
         plt.plot(titikA,titikB)
         plt.show()
         
- else:
+else:
     titikA = []
     titikB = []
     for i in range (0,N,1):
