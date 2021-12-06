@@ -43,3 +43,7 @@ if x1 == x2:
         print('Garis yang di lewati yaitu', x-1,',', kordinatY)
         titikA.append(x-1)
         titikB.append(kordinatY)
+        
+        
+    plt.plot(titikA,titikB)
+    plt.show()
