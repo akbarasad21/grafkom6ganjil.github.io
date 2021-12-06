@@ -23,3 +23,11 @@ if x1 == x2:
     for i in range (1,y2,1):
         plt.plot(titikA,titikB)
         plt.show()
+        
+        
+ elif y1 == y2:
+    titikA = []
+    titikB = []
+    for i in range (1,y2,1):
+        plt.plot(titikA,titikB)
+        plt.show()
