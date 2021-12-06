@@ -31,3 +31,15 @@ if x1 == x2:
     for i in range (1,y2,1):
         plt.plot(titikA,titikB)
         plt.show()
+        
+ else:
+    titikA = []
+    titikB = []
+    for i in range (0,N,1):
+        m = nilaiY / nilaiX
+        rumusY = m * (x - x1) + y1
+        kordinatY = round(rumusY)
+        x+=1
+        print('Garis yang di lewati yaitu', x-1,',', kordinatY)
+        titikA.append(x-1)
+        titikB.append(kordinatY)
